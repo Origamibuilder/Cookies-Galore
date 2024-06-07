@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f8b400;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header .hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+header .hero button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#product-catalog .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#product-catalog .product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+#product-catalog .product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
