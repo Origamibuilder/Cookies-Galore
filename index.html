@@ -1,63 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookies Galore</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies Galore</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="hero">
-            <h1>Welcome to Cookies Galore</h1>
-            <button onclick="scrollToSection('product-catalog')">Order Now</button>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Cookies Galore</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero-heading">Welcome to Cookies Galore</h2>
+        <p class="hero-text">We offer a wide variety of delicious cookies!</p>
+      </div>
+    </section>
+    
+    <section class="featured">
+      <div class="container">
+        <h2 class="section-heading">Featured Cookies</h2>
+        <div class="cookie-container">
+          <div class="cookie">
+            <img src="cookie1.jpg" alt="Chocolate Chip Cookie" class="cookie-img">
+            <h3 class="cookie-heading">Chocolate Chip Cookie</h3>
+            <p class="cookie-text">Our classic chocolate chip cookie is a customer favorite!</p>
+          </div>
+          <div class="cookie">
+            <img src="cookie2.jpg" alt="Oatmeal Raisin Cookie" class="cookie-img">
+            <h3 class="cookie-heading">Oatmeal Raisin Cookie</h3>
+            <p class="cookie-text">Enjoy the perfect blend of oats and raisins in every bite.</p>
+          </div>
         </div>
-    </header>
-    
-    <!-- About Us Section -->
-    <section id="about-us">
-        <h2>About Us</h2>
-        <p>Learn about our story and what makes Cookies Galore special.</p>
+      </div>
     </section>
-    
-    <!-- Product Catalog Section -->
-    <section id="product-catalog">
-        <h2>Our Cookies</h2>
-        <div class="product-list">
-            <div class="product">
-                <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Cookie">
-                <h3>Chocolate Chip Cookie</h3>
-                <p>$3.00</p>
-            </div>
-            <div class="product">
-                <img src="images/lavender-lemon.jpg" alt="Lavender Lemon Cookie">
-                <h3>Lavender Lemon Cookie</h3>
-                <p>$3.50</p>
-            </div>
-            <!-- Add more products as needed -->
-        </div>
-    </section>
-    
-    <!-- Contact Us Section -->
-    <section id="contact-us">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Cookies Galore. All rights reserved.</p>
-    </footer>
+  </main>
 
-    <script src="scripts.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">&copy; 2024 Cookies Galore</p>
+    </div>
+  </footer>
 </body>
 </html>
+
