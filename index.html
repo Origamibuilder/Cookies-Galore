@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Galore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="hero">
+            <h1>Welcome to Cookies Galore</h1>
+            <button onclick="scrollToSection('product-catalog')">Order Now</button>
+        </div>
+    </header>
+    
+    <!-- About Us Section -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Learn about our story and what makes Cookies Galore special.</p>
+    </section>
+    
+    <!-- Product Catalog Section -->
+    <section id="product-catalog">
+        <h2>Our Cookies</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Cookie">
+                <h3>Chocolate Chip Cookie</h3>
+                <p>$3.00</p>
+            </div>
+            <div class="product">
+                <img src="images/lavender-lemon.jpg" alt="Lavender Lemon Cookie">
+                <h3>Lavender Lemon Cookie</h3>
+                <p>$3.50</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Cookies Galore. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
